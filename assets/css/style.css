@@ -1,0 +1,47 @@
+.card{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+#title{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center; 
+    align-content: auto;
+}
+
+img{
+    margin: auto;
+    width: 30%;
+}
+
+.jumbotron{
+    background: url("http://dailytrojan.com/wp-content/uploads/2016/03/friendsgif.gif") top center;
+    height: 450px;
+    background-size: cover;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#correct{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    height: 200px;
+    font-size: 40px;
+    color: #ff4d4d;
+    font-weight: bold;
+}

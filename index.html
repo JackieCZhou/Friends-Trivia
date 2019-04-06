@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Trivia Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background-image: url("https://mvpo.us/img/P5531.jpg");
+      background-color: #cccccc;
+    }
+  </style>
+</head>
+
+<body>
+  <audio src="assets/images/friendssong.mp3" id="audio" loop="loop"></audio>
+
+  <div id="page">
+
+    <div class="jumbotron jumbotron-fluid bg-transparent">
+    </div>
+  </div>
+
+  <div id ="title">
+    <h1 class="display-4 font-weight-bold text-danger">Friends Trivia</h1>
+    <h2 class="lead font-weight-bold text-danger">The One With All The Questions</h2>
+    <br>
+    <div>
+      <button type="button" class="btn btn-outline-success btn-lg">Lets Play!</button>
+      <br>
+      <div id="display" class="timer">60</div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <div class="container">
+    <div class="card">
+      <h3>What borough in New York does the group live?</h3>
+      <br>
+      <input type="radio" name="question1" value="false">
+      <label for="Question1">Bronx</label>
+      <input type="radio" name="question1" value="true">
+      <label for="Question2">Manhattan</label>
+      <input type="radio" name=question1 value="false">
+      <label for="Question3">Queens</label>
+      </p>
+      <br>
+      <p>
+        <h3>What was the name and occupation of Joey's imaginary friend?</h3>
+        <br>
+        <input type="radio" name="question2" value="false">
+        <label for="Question1">Jeremy, Ghost Hunter</label>
+        <input type="radio" name="question2" value="false">
+        <label for="Question2">Angelo, Pirate</label>
+        <input type="radio" name="question2" value="true">
+        <label for="Question3">Maurice, Space cowboy</label>
+      </p>
+      <br>
+      <p>
+        <h3>Monica categorizes her towels. How many categories are there?</h3>
+        <br>
+        <input type="radio" name="question3" value="false">
+        <label for="Question1">4</label>
+        <input type="radio" name="question3" value="true">
+        <label for="Question2">11</label>
+        <input type="radio" name="question3" value="false">
+        <label for="Question3">7</label>
+      </p>
+      <br>
+      <p>
+        <h3>What is this Character's name?</h3>
+        <img
+          src="http://1.bp.blogspot.com/-1rz5KxncouM/VSqQNEJYwkI/AAAAAAAABsk/elkIQ3NsMuw/s1600/janice-from-friends-34854473-500-564.jpg">
+        <br>
+        <input type="radio" name="question4" value="true">
+        <label for="Question1">Janice</label>
+        <input type="radio" name="question4" value="false">
+        <label for="Question2">Greta</label>
+        <input type="radio" name="question4" value="false">
+        <label for="Question3">Martina</label>
+      </p>
+      <br>
+      <p>
+        <h3>How many times has Ross been married?:</h3>
+        <br>
+        <input type="radio" name="question5" value="false">
+        <label for="Question1">5</label>
+        <input type="radio" name="question5" value="true">
+        <label for="Question2">3</label>
+        <input type="radio" name="question5" value="false">
+        <label for="Question3">9</label>
+      </p>
+      <br>
+    </div>
+  </div>
+
+  <br>
+  <div id="correct">
+    <p>Game Over!</p>
+    <p id="correct-answers-text"></p>
+    <p id="incorrect-answers-text"></p>
+  </div>
+  </div>
+<br>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
