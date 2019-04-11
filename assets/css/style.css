@@ -21,6 +21,9 @@ h1, h2, h3{
     text-align: center; 
     align-content: auto;
 }
+input{
+   margin-left: auto;
+}
 
 img{
     margin: auto;
@@ -40,7 +43,7 @@ img{
     margin-left: 300px;
     margin-right: 300px;
     background-color: white;
-    height: 200px;
+    height: 250px;
     font-size: 40px;
     color: #ff4d4d;
     font-weight: bold;

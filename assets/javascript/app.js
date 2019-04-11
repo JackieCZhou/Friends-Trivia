@@ -17,7 +17,7 @@ var incorrect = 0;
 var correctText = document.getElementById("correct-answers-text");
 var incorrectText = document.getElementById("incorrect-answers-text");
 
-$("#btn#").on("click", start);
+$("#btn").on("click", start);
 
 function start() {
 
@@ -28,29 +28,52 @@ function start() {
     }
 }
 
-
 function count() {
     time--;
     $("#display").text(time)
     if (time === 0) {
-        clearInterval(intervalId)
-        if ($("input[name=question1]:checked").val()) {
-            correct++;
-        } else {
-            incorrect++;
-        }
         $("#correct").show();
+        clearInterval(intervalId)
+
+        if ($('#1b').is(':checked')) {
+            // alert("it's checked");
+            correct++
+        } else{
+            incorrect++
+        }
+        if ($('#2b').is(":checked")) {
+            correct++
+        } else{
+            incorrect++
+        }
+
+        if ($('#3b').is(":checked")) {
+            correct++
+        } else{
+            incorrect++
+        }
+
+        if ($('#4b').is(":checked")) {
+            correct++
+        } else{
+            incorrect++
+        }
+
+        if ($('#5b').is(":checked")) {
+            correct++
+        } else{
+            incorrect++
+        }
+        answer();
     }
 }
-
 function answer() {
-    $("#question1").prop("checked", true);
-    if (true){
-        correct.push(true);
+    $("#correct").show();
+    $("#incorrect").show();
+    correctText.textContent = "Correct Answers: " + correct;
+    incorrectText.textContent = "Incorrect Answers " + incorrect;
 }
 
 
-correctText.textContent = "Correct Answers: " + correct;
-incorrectText.textContent = "Incorrect Answers " + incorrect;
 
 
