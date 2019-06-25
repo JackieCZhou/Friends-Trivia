@@ -35,31 +35,31 @@ function count() {
         $("#correct").show();
         clearInterval(intervalId)
 
-        if ($('#1b').is(':checked')) {
+        if ($('#A1').is(':checked')) {
             // alert("it's checked");
             correct++
         } else{
             incorrect++
         }
-        if ($('#2b').is(":checked")) {
+        if ($('#A2').is(":checked")) {
             correct++
         } else{
             incorrect++
         }
 
-        if ($('#3b').is(":checked")) {
+        if ($('#A3').is(":checked")) {
             correct++
         } else{
             incorrect++
         }
 
-        if ($('#4b').is(":checked")) {
+        if ($('#A4').is(":checked")) {
             correct++
         } else{
             incorrect++
         }
 
-        if ($('#5b').is(":checked")) {
+        if ($('#A5').is(":checked")) {
             correct++
         } else{
             incorrect++
