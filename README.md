@@ -13,4 +13,9 @@ Languages Used: HTML, CSS, Javascript
 
 Layout & Design: Bootstrap
 
-The next steps of this project would be to add a restart button, create different levels of difficulty, add a real time updating leaderboard and a database of questions the game could randomly pull from to create a different series of questions each time.
+The next steps of this project would be:
+Add some more styling
+Add a restart button 
+Create different levels of difficulty, 
+Add a real time updating leaderboard
+Add a database of questions the game could randomly pull from to create a different series of questions each time.
